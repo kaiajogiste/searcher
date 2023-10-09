@@ -4,6 +4,8 @@ Searcher app search function is implemented to search single word terms,
 trying to search more than one word at a time will not bring any results.
 
 # Setting Searcher up
+Working Docker is needed for running this app, Desktop Docker works well 
+
 Open terminal and clone git repo to your computer with command 
 ```
 git clone https://github.com/kaiajogiste/searcher
