@@ -1,0 +1,97 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e6f7ff;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+label {
+    background-color: #d4f3c4;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="radio"], input[type="number"] {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    background-color: #fff;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table {
+    border-radius: 5px;
+}
+
+h1, h2, h3, form, table {
+    margin: 20px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.form {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.form {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.form-input {
+    margin-bottom: 10px;
+}
+
+.form-input label {
+    display: block;
+}
+
+.form-input input[type="text"],
+.form-input input[type="number"],
+.form-input select {
+    width: 50%;
+}
+
+
+
